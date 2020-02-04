@@ -12,8 +12,8 @@ Thumbs.db
 .vscode
 
 # dotenv
-.env/*
-!.env/defaults
+.env*
+!.env.default
 
 # Node
 node_modules/
