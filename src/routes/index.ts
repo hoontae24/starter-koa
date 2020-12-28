@@ -5,7 +5,7 @@ const init: AppInitializer = async ({ app }) => {
   const router = new Router();
 
   // Status
-  router.all('/status', ctx => {
+  router.all([/^\/$/, /^\/status$/], (ctx) => {
     ctx.body = 'OK';
   });
 
@@ -15,5 +15,5 @@ const init: AppInitializer = async ({ app }) => {
 };
 
 export default {
-  init
+  init,
 };

@@ -11,5 +11,5 @@ const init: AppInitializer = async ({ app }) => {
 };
 
 export default {
-  init
+  init,
 };

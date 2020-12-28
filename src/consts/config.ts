@@ -19,7 +19,7 @@ const config = {
   dbPassword: process.env.DATABASE_PASSWORD || ' development',
   dbName: process.env.DATABASE_NAME || ' development',
   dbHost: process.env.DATABASE_HOST || ' development',
-  dbPort: process.env.DATABASE_PORT || ' 5432'
+  dbPort: process.env.DATABASE_PORT || ' 5432',
 };
 
 export default config;
